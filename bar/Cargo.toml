@@ -1,0 +1,13 @@
+[package]
+name = "bar"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+description = "A sample command line tool?"
+repository.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+
+util = { path = "../crates/util" }
